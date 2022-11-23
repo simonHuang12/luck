@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Main {
+import java.util.Scanner;
+
+public class runner {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Do you want default settings? (y/n)");
+        String defaultSet = input.nextLine();
+
+
+    }
 }
